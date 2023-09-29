@@ -1,0 +1,224 @@
+/* barlow-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/barlow-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* barlow-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* fraunces-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fraunces-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* fraunces-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/fraunces-v31-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+.container {
+    width: 1250px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.nav-item {
+    display: flex;
+
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-link {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Barlow";
+    color: #83888F;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px; 
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+
+
+.hero {
+    background-image: url(../img/Bitmap.png);
+    width: 1280px;
+    height: 600px;
+    background-repeat: no-repeat;
+    transform: translateX(45px);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero-heading {
+    color: #FEFCF7;
+    font-family: 'Fraunces' ;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 72px; 
+    margin-left: 86px;
+    margin-top: 100px;
+}
+
+.hero-text {
+    color: #FEFCF7;
+    font-family: 'Barlow';
+    width: 445px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    opacity: 0.8;
+    margin-left: 86px;
+    margin-top: 20px; 
+}
+
+.hero-link {
+    background-color: #66D2CF;
+    padding: 15px 23px;
+    border-radius: 6px;
+    margin-left: 86px;
+    text-decoration: none;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px; 
+}
+
+.about .container {
+    background-image: url(../img/Group\ 13.png);
+    width: 1111px;
+    height: 196px;
+}
+
+.about__list {
+    display: flex;
+    margin-top: 125px;
+    list-style: none;
+}
+
+.about__heading {
+    color: #333D4B;
+    text-align: center;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px; 
+}
+
+.about__text {
+    color: #333D4B;
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+}
+
+.joji .container {
+    background-image: url(../img/Bitmap\ \(1\).png);
+    width: 1280px;
+    height: 577px;
+    margin-top: 480px;
+}
+
+.joji__list {
+    list-style: none;
+}
+
+.joji__title {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 48px; 
+    margin-left: 35px;
+    margin-top: 100px;
+}
+
+.joji__text {
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    opacity: 0.8;
+    margin-left: 40px;
+}
+
+.joji__list2 {
+    display: flex;
+}
+
+.joji__item2 {
+    width: 350px;
+    background: #0E8784;
+    border-radius: 8px;
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 110px;
+}
+
+.joji__img {
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-left: 140px;
+}
+
+
+
+.joji__heading {
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Fraunces';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    margin-left: 50px;
+}
+
+.joji__text2 {
+    width: 255px;
+    color: #FEFCF7;
+    text-align: center;
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 0 auto;
+}
+
